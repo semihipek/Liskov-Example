@@ -1,1 +1,23 @@
-# Liskov-Example
+SOLID, her yazılımcı tarafından bilinmesi gereken temel prensiplerdir. Amacı kod tekrarına düşmeyip sürdürülebilir, anlaşılabilir ve yeniden kullanılabilir esnek bir model oluşturup "Clean Code" yazmaktır. Öte yandan SOLID, OOP yazılım geliştirilirken uyulması gereken kurallardır da diyebiliriz. SOLID'i 5 alt başlığa ayırabiliriz.
+
+1-Single Responsibility Principle
+
+Geliştirilen projede her methodun, fonksiyonun tek sorumluluğu olması gerektiği prensibine dayanır. Bir fonksiyona birden fazla görev vermektense her fonksiyonun tek bir işlevi olması amaçlanır. Başka bir deyişle gerekli değişiklik yapılırken ilgili metodu bulmamız yeterli olacaktır. Bu sayede işimiz çok daha kolaylaşabilir çünkü kodun içinde kaybolmayız.
+
+2-Open/Closed Principle
+
+Türkçesi "Açık/Kapalı" olan bu prensip nesnelerin değişime değil gelişime açık olması gerektiğini belirtir. Kısacası nesne davranışını değiştirmeden kendini geliştirebiliyor olması gerekir.Böylece sürdürelebilir, tekrar kullanılabilirlik açısından önem arz eder.
+
+3-Liskov Substitution Principle
+
+"Yerine Geçme" prensibinde miras alarak oluşturduğumuz classların miras aldığı nesnenin özelliklerini içermesi ve kullanması istenir.Aksi halde yani uyumlu bir durum yoksa gereksiz kod parçaları oluşur ve "Clean Code" olmaz.
+
+4- Interface Segregation Principle
+
+Arayüzlere gerekenden fazla sorumluluk yüklemeden işlevine, görevine uygun şekilde tasarlanması gerektiği savunulur. Böylece nesneler ihtiyacı olmayan metotlar ile miras alınması engellenir.
+Single Responsibility ile benzer bir yaklaşım söz konusudur.ISP interface, SRP class ile ilgilidir.
+
+
+5- Dependency Inversion Principle
+
+Bir nevi bağımlılığın ters çevirilmesidir. Üst sınıfların alt sınıflarda olan değişikliklerden etkilenmemesi amaçlanır.Bir başka deyişle sınıflar arası bağlılık minimum seviyede olmalıdır.
